@@ -22,6 +22,7 @@ il retin mereu pe parcurs.
 Complexitate: cautare: O(log(N)) (in permutare sunt N - 1 noduri)
 	      BFS: O(M + N) 
 	      TOTAL: O(log(N)*(M + N)), N = numarul de noduri, M = numarul de muchii din graf
+	
 	Problema 2
 	Problema 2 presupune calcularea drumul de cost minim intre o sursa si o destinatie.
 O prima solutie este aplicarea algortimului Bellman-Ford deoarece este valabil si pentru
