@@ -2,7 +2,7 @@
 	Student: Sima Nicoleta-Lavinia
 
 	Problema 1
-	O prima solutie pentru prima problema a fost sa blochez pe rand orasele
+O prima solutie pentru prima problema a fost sa blochez pe rand orasele
 din permutarea data pana cand as fi gasit primul oras care inchidea toate caile 
 lorzilor catre Robin. Solutia a fost ineficienta, iar pentru testele mari
 algoritmul nu reusea sa se incadreze in timp deoarce se parcurgeau foarte multe
@@ -24,7 +24,7 @@ Complexitate: cautare: O(log(N)) (in permutare sunt N - 1 noduri)
 	      TOTAL: O(log(N)*(M + N)), N = numarul de noduri, M = numarul de muchii din graf
 	
 	Problema 2
-	Problema 2 presupune calcularea drumul de cost minim intre o sursa si o destinatie.
+Problema 2 presupune calcularea drumul de cost minim intre o sursa si o destinatie.
 O prima solutie este aplicarea algortimului Bellman-Ford deoarece este valabil si pentru
 grafuri cu muchii de cost negativ. Complexitatea algorimului a fost prea mare pentru 
 problema si depasea timpul alocat executiei. O alta varianta este sortarea topologica
@@ -42,7 +42,7 @@ Complexitate: sortare: O(N + M)
 	      TOTAL: O(N * M + N + M), N = numarul de noduri, M = numarul de muchii din graf
 
 	Problema 3
-	Problema 3 presupune calculul energiei maxime cu care Robin ajunge in Notthingam.
+Problema 3 presupune calculul energiei maxime cu care Robin ajunge in Notthingam.
 Pentru aceasta, am ales sa folosesc Algoritmul lui Dijkstra deoarece energia consumata care 
 tine loc de cost este mereu pozitiva. Am ales o coada de prioritati care este implementata ca 
 max heap by default pentru a retine energia si nodul in care se ajunge. Robin porneste din nodul
